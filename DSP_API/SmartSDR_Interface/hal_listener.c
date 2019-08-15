@@ -41,6 +41,7 @@
 #include <errno.h> // for errno
 #include <unistd.h>			// for usleep
 #include <netdb.h>
+#include <sys/prctl.h>
 
 // #define LOG_MODULE LOG_MODULE_HAL_LISTENER
 
@@ -430,6 +431,7 @@ static void* _hal_ListenerLoop(void* param)
 
 	struct sockaddr_in sender;
 	uint8 buf[ETH_FRAME_LEN];
+	prctl(PR_SET_NAME, "DV-halListener");
 
 	while(!hal_listen_abort)
 	{
@@ -530,9 +532,10 @@ void hal_Listener_Init(void)
 {
 	output("Vita Listener Init: Opening socket");
 
+	errno = 0;
 	if((fpga_sock = socket(AF_INET, SOCK_DGRAM, IPPROTO_UDP)) == -1)
 	{
-		output("...failed! (socket call returned -1)\n");
+		output("...failed! (socket call returned -1) - errno = %d\n", errno);
 		return;
 	}
 

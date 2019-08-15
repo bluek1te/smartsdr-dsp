@@ -22,24 +22,12 @@
         "Entry"
         {
         "MsmKey" = "8:_0766D6B5F67085FA6951B8F3A110AC52"
-        "OwnerKey" = "8:_33ACE5F9EC81402FB03BD1F8D09D0621"
+        "OwnerKey" = "8:_52F2E5C82F5A468DB0A14958DABC010C"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_0E77A05C3E32375759743EEADF09A07D"
-        "OwnerKey" = "8:_33ACE5F9EC81402FB03BD1F8D09D0621"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_0E77A05C3E32375759743EEADF09A07D"
-        "OwnerKey" = "8:_6B67ECD422687C0C1F634130CF5E98FB"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_33ACE5F9EC81402FB03BD1F8D09D0621"
+        "MsmKey" = "8:_37A07FD6839A484AB728FA94B1083955"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -51,20 +39,20 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_52F2E5C82F5A468DB0A14958DABC010C"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_5841366F13AC47E5B678DCF7F7152F4E"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_6B37D49588874BAEB27974FF554C7D0C"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_6B67ECD422687C0C1F634130CF5E98FB"
-        "OwnerKey" = "8:_33ACE5F9EC81402FB03BD1F8D09D0621"
+        "OwnerKey" = "8:_52F2E5C82F5A468DB0A14958DABC010C"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -76,7 +64,7 @@
         "Entry"
         {
         "MsmKey" = "8:_BF7C891FD48893917AC2212F0D71946D"
-        "OwnerKey" = "8:_33ACE5F9EC81402FB03BD1F8D09D0621"
+        "OwnerKey" = "8:_52F2E5C82F5A468DB0A14958DABC010C"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -87,6 +75,18 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_DCE4F5BEF3314462167194E11CDFA3C0"
+        "OwnerKey" = "8:_6B67ECD422687C0C1F634130CF5E98FB"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_DCE4F5BEF3314462167194E11CDFA3C0"
+        "OwnerKey" = "8:_52F2E5C82F5A468DB0A14958DABC010C"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_E01867FA37CD77344818571B20736D3B"
         "OwnerKey" = "8:_6B67ECD422687C0C1F634130CF5E98FB"
         "MsmSig" = "8:_UNDEFINED"
@@ -94,13 +94,19 @@
         "Entry"
         {
         "MsmKey" = "8:_E01867FA37CD77344818571B20736D3B"
-        "OwnerKey" = "8:_33ACE5F9EC81402FB03BD1F8D09D0621"
+        "OwnerKey" = "8:_52F2E5C82F5A468DB0A14958DABC010C"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_F5493E84A58F4E0D993B24BAD4694555"
         "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_52F2E5C82F5A468DB0A14958DABC010C"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -130,13 +136,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_33ACE5F9EC81402FB03BD1F8D09D0621"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_0E77A05C3E32375759743EEADF09A07D"
+        "OwnerKey" = "8:_DCE4F5BEF3314462167194E11CDFA3C0"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -184,7 +184,7 @@
         "DisplayName" = "8:Release"
         "IsDebugOnly" = "11:FALSE"
         "IsReleaseOnly" = "11:TRUE"
-        "OutputFilename" = "8:Release\\FreeDV.msi"
+        "OutputFilename" = "8:Release\\ThumbDV_DSTAR.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -248,7 +248,7 @@
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Flex.UiWpfFramework, Version=1.0.1.30307, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:Flex.UiWpfFramework, Version=1.0.1.24789, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
                     "_0766D6B5F67085FA6951B8F3A110AC52"
@@ -275,23 +275,12 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_0E77A05C3E32375759743EEADF09A07D"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_37A07FD6839A484AB728FA94B1083955"
             {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Ionic.Zip, Version=1.9.1.8, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_0E77A05C3E32375759743EEADF09A07D"
-                    {
-                    "Name" = "8:Ionic.Zip.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:Ionic.Zip.dll"
-            "TargetName" = "8:"
+            "SourcePath" = "8:..\\..\\..\\..\\..\\ThumbDV.ssdr_waveform"
+            "TargetName" = "8:ThumbDV.ssdr_waveform"
             "Tag" = "8:"
-            "Folder" = "8:_40196D409E904F29B144A3CC2149E747"
+            "Folder" = "8:_377DE1BBED84443D8A1631B8496FDC4E"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -303,7 +292,7 @@
             "PackageAs" = "3:1"
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
+            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_44FE594CB4324BE091F300EB9369B6CC"
@@ -346,31 +335,11 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6B37D49588874BAEB27974FF554C7D0C"
-            {
-            "SourcePath" = "8:..\\CODEC2 GUI\\WaveformPackages\\FreeDV.ssdr_waveform"
-            "TargetName" = "8:FreeDV.ssdr_waveform"
-            "Tag" = "8:"
-            "Folder" = "8:_377DE1BBED84443D8A1631B8496FDC4E"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_6B67ECD422687C0C1F634130CF5E98FB"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:FlexLib, Version=1.4.25.30307, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:FlexLib, Version=1.4.23.24790, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
                     "_6B67ECD422687C0C1F634130CF5E98FB"
@@ -401,7 +370,7 @@
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Util, Version=1.0.1.30307, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:Util, Version=1.0.1.24789, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
                     "_BF7C891FD48893917AC2212F0D71946D"
@@ -428,11 +397,42 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_DCE4F5BEF3314462167194E11CDFA3C0"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Ionic.Zip, Version=1.9.1.8, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_DCE4F5BEF3314462167194E11CDFA3C0"
+                    {
+                    "Name" = "8:Ionic.Zip.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Ionic.Zip.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_40196D409E904F29B144A3CC2149E747"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_E01867FA37CD77344818571B20736D3B"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Vita, Version=1.0.1.30307, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:Vita, Version=1.0.1.24789, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
                     "_E01867FA37CD77344818571B20736D3B"
@@ -567,20 +567,20 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:FreeDV"
-        "ProductCode" = "8:{A08FA802-12C1-4DE8-B124-6DEDA0BEF4F7}"
-        "PackageCode" = "8:{8EADBEC9-F204-462E-A822-8ACCEF52D1F5}"
-        "UpgradeCode" = "8:{A02AD445-626C-4587-AD08-F92D7E118F4E}"
+        "ProductName" = "8:ThumbDV DSTAR"
+        "ProductCode" = "8:{0A72FD89-CF75-4368-8DCF-20719A4EF565}"
+        "PackageCode" = "8:{7B138403-B258-48E4-9991-7DDD5FFDFC50}"
+        "UpgradeCode" = "8:{A727F8A2-D15B-45F4-9728-19541BB04667}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:1.0.0"
+        "ProductVersion" = "8:1.0.4"
         "Manufacturer" = "8:FlexRadio Systems"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
-        "Title" = "8:FreeDV"
+        "Title" = "8:ThumbDV DSTAR"
         "Subject" = "8:"
         "ARPCONTACT" = "8:"
         "Keywords" = "8:"
@@ -689,32 +689,18 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_070E818665FF4960B5AB6194911772D2"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_0CB4C29272694A3C8B3AD5BF0F25047C"
             {
-            "Name" = "8:FreeDV"
+            "Name" = "8:ThumbDV DSTAR"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_33ACE5F9EC81402FB03BD1F8D09D0621"
-            "Folder" = "8:_28A6D54432764B34ABC7E36F336A6762"
-            "WorkingFolder" = "8:_40196D409E904F29B144A3CC2149E747"
-            "Icon" = "8:_44FE594CB4324BE091F300EB9369B6CC"
-            "Feature" = "8:"
-            }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_DA8E68D53EA341D0A7A0654DEC96CE44"
-            {
-            "Name" = "8:FreeDV"
-            "Arguments" = "8:"
-            "Description" = "8:"
-            "ShowCmd" = "3:1"
-            "IconIndex" = "3:0"
-            "Transitive" = "11:FALSE"
-            "Target" = "8:_33ACE5F9EC81402FB03BD1F8D09D0621"
+            "Target" = "8:_52F2E5C82F5A468DB0A14958DABC010C"
             "Folder" = "8:_01E98CA335E74C1385F704CA49E431C5"
             "WorkingFolder" = "8:_40196D409E904F29B144A3CC2149E747"
-            "Icon" = "8:_44FE594CB4324BE091F300EB9369B6CC"
+            "Icon" = "8:"
             "Feature" = "8:"
             }
         }
@@ -1116,9 +1102,9 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_33ACE5F9EC81402FB03BD1F8D09D0621"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_52F2E5C82F5A468DB0A14958DABC010C"
             {
-            "SourcePath" = "8:..\\CODEC2 GUI\\obj\\x86\\Release\\FreeDV.exe"
+            "SourcePath" = "8:..\\CODEC2 GUI\\obj\\x86\\Release\\ThumbDV_DSTAR_GUI.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_40196D409E904F29B144A3CC2149E747"
@@ -1138,7 +1124,7 @@
             "ProjectOutputGroupRegister" = "3:1"
             "OutputConfiguration" = "8:"
             "OutputGroupCanonicalName" = "8:Built"
-            "OutputProjectGuid" = "8:{51F7B7D3-E411-4E6B-86A2-B4290DBFF89E}"
+            "OutputProjectGuid" = "8:{19634B34-7569-4D1D-8182-B10AC27E13FF}"
             "ShowKeyOutput" = "11:TRUE"
                 "ExcludeFilters"
                 {

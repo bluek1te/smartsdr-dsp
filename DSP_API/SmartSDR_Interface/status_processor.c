@@ -50,7 +50,6 @@ static void _handle_status(char* string)
     char* start = strtok_r(string,"|",&save);
     start = strtok_r(NULL,"|",&save);
 
-
     // first let's look for a slice status -- these are most important
     if (strncmp(start, "slice", strlen("slice")) == 0)
     {
@@ -76,18 +75,20 @@ static void _handle_status(char* string)
             {
                 errno = 0;
                 char* smode = argv[i]+strlen("mode")+1;
-                if (strncmp(smode,"FDV",3) == 0)
+                if (strncmp(smode,"DSTR", strlen("DSTR")) == 0)
                 {
-                    // we are now in FDV mode
-                    output(ANSI_MAGENTA "slice %d is now in FDV mode - sendig commands\n",slc);
-
+                    // we are now in DSTR mode
+                    output(ANSI_MAGENTA "slice %d is now in DSTR mode\n",slc);
                     char cmd[512] = {0};
-                    sprintf(cmd, "slice s %d digu_offset=1500", slc);
-                    tc_sendSmartSDRcommand(cmd, FALSE, NULL);
+                    sprintf(cmd, "slice s %d fm_deviation=1200 post_demod_low=0 post_demod_high=6000 dfm_pre_de_emphasis=0 post_demod_bypass=1 squelch=0", slc);
+                    tc_sendSmartSDRcommand(cmd,FALSE, NULL);
+
+                    sched_waveform_setDSTARSlice(slc);
+
                 }
                 else
                 {
-                    // we have left FDV mode
+                    // we have left DSTR mode
                     output(ANSI_MAGENTA "slice %d is in %s mode\n",slc,smode);
                 }
             }
@@ -101,7 +102,7 @@ static void _handle_status(char* string)
 
                 }
             }
-            if(strncmp(argv[i], "tx", strlen("tx")) == 0)
+            if(strncmp(argv[i], "tx", strlen("tx")) == 0 && (strlen(argv[i]) == 2))
             {
                 errno = 0;
                 int tx = strtoul(argv[i]+strlen("tx")+1, NULL, 0);
@@ -145,9 +146,10 @@ static void _handle_status(char* string)
                 }
                 else if ( strncmp(state, "UNKEY_REQUESTED", strlen("UNKEY_REQUESTED")) == 0 )
                 {
-                    output(ANSI_MAGENTA "unkey requested \n");
+                    output(ANSI_MAGENTA "unkey requested - sending end bits\n");
                     sched_waveform_setEndOfTX(TRUE);
                 }
+
             }
         }
 

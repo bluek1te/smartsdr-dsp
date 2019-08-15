@@ -38,6 +38,7 @@
 #include <string.h>
 
 #include <sys/stat.h>
+#include <sys/prctl.h>
 #include <fcntl.h>          // File Control functions
 
 #include "common.h"
@@ -92,6 +93,7 @@ void SmartSDR_API_Shutdown(void)
 
 void* _console_thread(void* param)
 {
+    prctl(PR_SET_NAME, "DV-Console");
     cmd_banner();
     output(PROMPT);
     // let everybody know we're through printing
@@ -311,8 +313,6 @@ uint32 register_mode(void)
     {
         output(ANSI_CYAN "FreeDV: SUCCESS, closed config file %s\n", cfg_file);
     }
-
-    tc_sendSmartSDRcommand("sub slice all", FALSE, NULL);
 
     return SUCCESS;
 }
