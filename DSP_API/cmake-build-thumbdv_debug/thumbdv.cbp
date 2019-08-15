@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="thumbdv"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/src/flex/smartsdr-dsp/DSP_API/cmake-build-thumbdv_debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/src/flex/smartsdr-dsp/DSP_API/cmake-build-thumbdv_debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/src/flex/smartsdr-dsp/DSP_API/cmake-build-thumbdv_debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/src/flex/smartsdr-dsp/DSP_API/cmake-build-thumbdv_debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/src/flex/smartsdr-dsp/DSP_API/cmake-build-thumbdv_debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/src/flex/smartsdr-dsp/DSP_API/cmake-build-thumbdv_debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/src/flex/smartsdr-dsp/DSP_API/cmake-build-thumbdv_debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/src/flex/smartsdr-dsp/DSP_API/cmake-build-thumbdv_debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/src/flex/smartsdr-dsp/DSP_API/cmake-build-thumbdv_debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/src/flex/smartsdr-dsp/DSP_API/cmake-build-thumbdv_debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="thumbdv">
+				<Option output="/src/flex/smartsdr-dsp/DSP_API/cmake-build-thumbdv_debug/thumbdv" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/src/flex/smartsdr-dsp/DSP_API/cmake-build-thumbdv_debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add directory="/src/flex/smartsdr-dsp/DSP_API/."/>
+					<Add directory="/src/flex/smartsdr-dsp/DSP_API/include"/>
+					<Add directory="/src/flex/smartsdr-dsp/DSP_API/ThumbDV"/>
+					<Add directory="/src/flex/smartsdr-dsp/DSP_API/SmartSDR_Interface"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc-cross/arm-linux-gnueabihf/7/include"/>
+					<Add directory="/usr/lib/gcc-cross/arm-linux-gnueabihf/7/include-fixed"/>
+					<Add directory="/usr/lib/gcc-cross/arm-linux-gnueabihf/7/../../../../arm-linux-gnueabihf/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/src/flex/smartsdr-dsp/DSP_API/cmake-build-thumbdv_debug/Makefile&quot;  VERBOSE=1 thumbdv"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/src/flex/smartsdr-dsp/DSP_API/cmake-build-thumbdv_debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/src/flex/smartsdr-dsp/DSP_API/cmake-build-thumbdv_debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/src/flex/smartsdr-dsp/DSP_API/cmake-build-thumbdv_debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="thumbdv/fast">
+				<Option output="/src/flex/smartsdr-dsp/DSP_API/cmake-build-thumbdv_debug/thumbdv" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/src/flex/smartsdr-dsp/DSP_API/cmake-build-thumbdv_debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add directory="/src/flex/smartsdr-dsp/DSP_API/."/>
+					<Add directory="/src/flex/smartsdr-dsp/DSP_API/include"/>
+					<Add directory="/src/flex/smartsdr-dsp/DSP_API/ThumbDV"/>
+					<Add directory="/src/flex/smartsdr-dsp/DSP_API/SmartSDR_Interface"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc-cross/arm-linux-gnueabihf/7/include"/>
+					<Add directory="/usr/lib/gcc-cross/arm-linux-gnueabihf/7/include-fixed"/>
+					<Add directory="/usr/lib/gcc-cross/arm-linux-gnueabihf/7/../../../../arm-linux-gnueabihf/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/src/flex/smartsdr-dsp/DSP_API/cmake-build-thumbdv_debug/Makefile&quot;  VERBOSE=1 thumbdv/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/src/flex/smartsdr-dsp/DSP_API/cmake-build-thumbdv_debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/src/flex/smartsdr-dsp/DSP_API/cmake-build-thumbdv_debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/src/flex/smartsdr-dsp/DSP_API/cmake-build-thumbdv_debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/src/flex/smartsdr-dsp/DSP_API/cmake-build-thumbdv_debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/src/flex/smartsdr-dsp/DSP_API/cmake-build-thumbdv_debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/src/flex/smartsdr-dsp/DSP_API/cmake-build-thumbdv_debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/src/flex/smartsdr-dsp/DSP_API/cmake-build-thumbdv_debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/src/flex/smartsdr-dsp/DSP_API/cmake-build-thumbdv_debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/src/flex/smartsdr-dsp/DSP_API/SmartSDR_Interface/cmd_basics.c">
+			<Option target="thumbdv"/>
+		</Unit>
+		<Unit filename="/src/flex/smartsdr-dsp/DSP_API/SmartSDR_Interface/cmd_engine.c">
+			<Option target="thumbdv"/>
+		</Unit>
+		<Unit filename="/src/flex/smartsdr-dsp/DSP_API/SmartSDR_Interface/discovery_client.c">
+			<Option target="thumbdv"/>
+		</Unit>
+		<Unit filename="/src/flex/smartsdr-dsp/DSP_API/SmartSDR_Interface/discovery_client.h">
+			<Option target="thumbdv"/>
+		</Unit>
+		<Unit filename="/src/flex/smartsdr-dsp/DSP_API/SmartSDR_Interface/hal_buffer.c">
+			<Option target="thumbdv"/>
+		</Unit>
+		<Unit filename="/src/flex/smartsdr-dsp/DSP_API/SmartSDR_Interface/hal_buffer.h">
+			<Option target="thumbdv"/>
+		</Unit>
+		<Unit filename="/src/flex/smartsdr-dsp/DSP_API/SmartSDR_Interface/hal_listener.c">
+			<Option target="thumbdv"/>
+		</Unit>
+		<Unit filename="/src/flex/smartsdr-dsp/DSP_API/SmartSDR_Interface/hal_listener.h">
+			<Option target="thumbdv"/>
+		</Unit>
+		<Unit filename="/src/flex/smartsdr-dsp/DSP_API/SmartSDR_Interface/hal_vita.c">
+			<Option target="thumbdv"/>
+		</Unit>
+		<Unit filename="/src/flex/smartsdr-dsp/DSP_API/SmartSDR_Interface/hal_vita.h">
+			<Option target="thumbdv"/>
+		</Unit>
+		<Unit filename="/src/flex/smartsdr-dsp/DSP_API/SmartSDR_Interface/io_utils.c">
+			<Option target="thumbdv"/>
+		</Unit>
+		<Unit filename="/src/flex/smartsdr-dsp/DSP_API/SmartSDR_Interface/io_utils.h">
+			<Option target="thumbdv"/>
+		</Unit>
+		<Unit filename="/src/flex/smartsdr-dsp/DSP_API/SmartSDR_Interface/sched_waveform.c">
+			<Option target="thumbdv"/>
+		</Unit>
+		<Unit filename="/src/flex/smartsdr-dsp/DSP_API/SmartSDR_Interface/sched_waveform.h">
+			<Option target="thumbdv"/>
+		</Unit>
+		<Unit filename="/src/flex/smartsdr-dsp/DSP_API/SmartSDR_Interface/smartsdr_dsp_api.c">
+			<Option target="thumbdv"/>
+		</Unit>
+		<Unit filename="/src/flex/smartsdr-dsp/DSP_API/SmartSDR_Interface/smartsdr_dsp_api.h">
+			<Option target="thumbdv"/>
+		</Unit>
+		<Unit filename="/src/flex/smartsdr-dsp/DSP_API/SmartSDR_Interface/status_processor.c">
+			<Option target="thumbdv"/>
+		</Unit>
+		<Unit filename="/src/flex/smartsdr-dsp/DSP_API/SmartSDR_Interface/status_processor.h">
+			<Option target="thumbdv"/>
+		</Unit>
+		<Unit filename="/src/flex/smartsdr-dsp/DSP_API/SmartSDR_Interface/traffic_cop.c">
+			<Option target="thumbdv"/>
+		</Unit>
+		<Unit filename="/src/flex/smartsdr-dsp/DSP_API/SmartSDR_Interface/traffic_cop.h">
+			<Option target="thumbdv"/>
+		</Unit>
+		<Unit filename="/src/flex/smartsdr-dsp/DSP_API/SmartSDR_Interface/utils.c">
+			<Option target="thumbdv"/>
+		</Unit>
+		<Unit filename="/src/flex/smartsdr-dsp/DSP_API/SmartSDR_Interface/utils.h">
+			<Option target="thumbdv"/>
+		</Unit>
+		<Unit filename="/src/flex/smartsdr-dsp/DSP_API/SmartSDR_Interface/vita_output.c">
+			<Option target="thumbdv"/>
+		</Unit>
+		<Unit filename="/src/flex/smartsdr-dsp/DSP_API/SmartSDR_Interface/vita_output.h">
+			<Option target="thumbdv"/>
+		</Unit>
+		<Unit filename="/src/flex/smartsdr-dsp/DSP_API/ThumbDV/bit_pattern_matcher.c">
+			<Option target="thumbdv"/>
+		</Unit>
+		<Unit filename="/src/flex/smartsdr-dsp/DSP_API/ThumbDV/bit_pattern_matcher.h">
+			<Option target="thumbdv"/>
+		</Unit>
+		<Unit filename="/src/flex/smartsdr-dsp/DSP_API/ThumbDV/dstar.c">
+			<Option target="thumbdv"/>
+		</Unit>
+		<Unit filename="/src/flex/smartsdr-dsp/DSP_API/ThumbDV/dstar.h">
+			<Option target="thumbdv"/>
+		</Unit>
+		<Unit filename="/src/flex/smartsdr-dsp/DSP_API/ThumbDV/gmsk_modem.c">
+			<Option target="thumbdv"/>
+		</Unit>
+		<Unit filename="/src/flex/smartsdr-dsp/DSP_API/ThumbDV/gmsk_modem.h">
+			<Option target="thumbdv"/>
+		</Unit>
+		<Unit filename="/src/flex/smartsdr-dsp/DSP_API/ThumbDV/slow_data.c">
+			<Option target="thumbdv"/>
+		</Unit>
+		<Unit filename="/src/flex/smartsdr-dsp/DSP_API/ThumbDV/slow_data.h">
+			<Option target="thumbdv"/>
+		</Unit>
+		<Unit filename="/src/flex/smartsdr-dsp/DSP_API/ThumbDV/thumbDV.c">
+			<Option target="thumbdv"/>
+		</Unit>
+		<Unit filename="/src/flex/smartsdr-dsp/DSP_API/ThumbDV/thumbDV.h">
+			<Option target="thumbdv"/>
+		</Unit>
+		<Unit filename="/src/flex/smartsdr-dsp/DSP_API/circular_buffer.c">
+			<Option target="thumbdv"/>
+		</Unit>
+		<Unit filename="/src/flex/smartsdr-dsp/DSP_API/circular_buffer.h">
+			<Option target="thumbdv"/>
+		</Unit>
+		<Unit filename="/src/flex/smartsdr-dsp/DSP_API/main.c">
+			<Option target="thumbdv"/>
+		</Unit>
+		<Unit filename="/src/flex/smartsdr-dsp/DSP_API/main.h">
+			<Option target="thumbdv"/>
+		</Unit>
+		<Unit filename="/src/flex/smartsdr-dsp/DSP_API/resampler.c">
+			<Option target="thumbdv"/>
+		</Unit>
+		<Unit filename="/src/flex/smartsdr-dsp/DSP_API/resampler.h">
+			<Option target="thumbdv"/>
+		</Unit>
+		<Unit filename="/src/flex/smartsdr-dsp/DSP_API/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

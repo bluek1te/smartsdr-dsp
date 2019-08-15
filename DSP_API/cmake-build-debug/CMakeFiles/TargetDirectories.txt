@@ -1,0 +1,3 @@
+/src/flex/smartsdr-dsp/DSP_API/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/src/flex/smartsdr-dsp/DSP_API/cmake-build-debug/CMakeFiles/thumbdv.dir
+/src/flex/smartsdr-dsp/DSP_API/cmake-build-debug/CMakeFiles/edit_cache.dir

@@ -1,0 +1,4 @@
+/opt/clion-2019.1.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Test_Dongle -DCMAKE_C_COMPILER=/usr/bin/gcc -G "CodeBlocks - Unix Makefiles" /src/flex/smartsdr-dsp/DSP_API
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /src/flex/smartsdr-dsp/DSP_API/cmake-build-test_dongle-system
